@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Blocktown</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css"></head><body>
+<canvas id="c"></canvas>
+<div id="menu"><i class="blk b1"></i><i class="blk b2"></i><i class="blk b3"></i><i class="blk b4"></i><i class="blk b5"></i>
+<div id="main" class="panel"><h1>BLOCK<span>TOWN</span></h1><p>Explore a cidade. Pule. Descubra.</p>
+<button id="play" class="btn big">▶ JOGAR</button><button id="open-set" class="btn">⚙ CONFIGURAÇÕES</button></div>
+<div id="settings" class="panel hide"><h2>Configurações</h2>
+<label>Qualidade gráfica</label><div class="seg"><button data-q="low">Baixa</button><button data-q="medium">Média</button><button data-q="high">Alta</button></div>
+<label>Limite de FPS</label><div class="seg"><button data-fps="30">30</button><button data-fps="45">45</button><button data-fps="60">60</button><button data-fps="90">90</button></div>
+<button id="back" class="btn">← VOLTAR</button></div></div>
+<div id="hud" class="hide"><span id="fps">-- FPS</span><button id="pause">⏸</button><div id="stick"><div id="knob"></div></div><button id="jump">⤒</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script><script src="game.js"></script></body></html>
